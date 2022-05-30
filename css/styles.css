@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+* {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    color: #8e646e;
+    font-size: 20px;
+    outline: none;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(-45deg, #fea7be, #ffffff);
+}
+
+.form-rate {
+    padding: 2%;
+    margin: 0 auto; 
+    width: 40%;
+    height: 35%;
+    margin-top: 15%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.currency-part-form-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-currency {
+    border-radius: 10px;
+    width: 80%;
+    border: 1px solid #8e646e;
+    padding: 0 10px;
+}
+
+.rate-part-form-rate {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-rate {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-rate input {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #8e646e;
+    padding: 0 10px;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #8e646e;
+    padding: 0 10px;
+}
+
+.button-rate {
+    display: flex;
+    justify-content: center;
+}
